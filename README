@@ -1,0 +1,13 @@
+
+-- Hashtable --
+
+Exemple de utilizare se gasesc in folderele Exemplul1 si Exemplul2.
+
+Functiile de care dispune HashTablel-ul:
+
+1. HashTable* createHashtable (int size);
+2. void addElementToHashtabel (HashTable* hashtable, void* element, unsigned int element_size);
+3. void removeElementFromHashtable (HashTable* hashtable, void* element, unsigned int element_size);
+4. int findElementInHashtable (HashTable* hashtable, void* element, unsigned int element_size);
+5. void clearHshtable (HashTable* hashtable);
+6. void* nextHashTableElement(HashTable* hashTable);
